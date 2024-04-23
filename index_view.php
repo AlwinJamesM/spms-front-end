@@ -415,7 +415,7 @@
 		</div>
 		<div class="col-md-4">
 			<span class="thumb-info-caption px-4 pb-3">
-				<span class="thumb-info-caption-text p-xl" style="margin-left: 105px;">
+				<span class="thumb-info-caption-text p-xl" style="margin-left: 60px;">
 					<a href="<?php echo base_url(); ?>contact" class="button  button-xlarge button-border button-rounded">INQUIRE</a>
 				</span>
 			</span>
