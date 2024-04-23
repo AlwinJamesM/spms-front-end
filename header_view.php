@@ -216,9 +216,9 @@
 		
 		<!-- Header
 		============================================= -->
-		<header id="header" style="background-color: #c0FFFF; padding: 0;">
+		<header id="header" style="background-color: #c0FFFF; padding: 0; height: 60px;">
 
-			<div id="header-wrap">
+			<div id="header-wrap" style="height: 60px;">
 
 				<div class="container clearfix">
 
@@ -226,7 +226,7 @@
 
 					<!-- Logo
 					============================================= -->
-					<div id="logo">
+					<div id="logo" style=" margin: 0 auto; display: block;">
 						<!--<a href="<?php echo base_url(); ?>" class="standard-logo" data-sticky-logo="<?php echo base_url(); ?>assets/home/images/logo.png" data-mobile-logo="<?php echo base_url(); ?>assets/home/images/logo.png"><img src="<?php echo base_url(); ?>assets/home/images/logo.png" alt="SPMS Logo"></a>-->
 					</div><!-- #logo end -->
 
@@ -235,15 +235,15 @@
 					<nav id="primary-menu">
 
 						<ul>
-							<li <?php if ($title=="Home"){echo 'class="current"'; } ?> ><a href="<?php echo base_url(); ?>index.php/"><div>HOME</div></a>
-								
+						<li <?php if ($title=="Home"){echo 'class="current"'; } ?> ><a href="<?php echo base_url(); ?>index.php/" style="padding: 20px;">HOME</a></li>
+		
 							</li>
-							<li <?php if ($title=="About Us"){echo 'class="current"'; } ?> ><a href="<?php echo base_url(); ?>index.php/about"><div>ABOUT US</div></a>
+							<li <?php if ($title=="About Us"){echo 'class="current"'; } ?> ><a href="<?php echo base_url(); ?>index.php/about/" style="padding: 20px;"><div>ABOUT US</div></a>
 								
 							</li>
 							
 							
-							<li <?php if ($title=="Products"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/products"><div>PRODUCTS</div></a>
+							<li <?php if ($title=="Products"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/products/" style="padding: 20px;"><div>PRODUCTS</div></a>
 								<ul>
 									<?php 
 									$this->db->where('p_cat_status','Active');
@@ -270,11 +270,11 @@
 									
 								</ul>
 							</li>
-							<li <?php if ($title=="Blogs"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/blog"><div>BLOGS</div></a>
+							<li <?php if ($title=="Blogs"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/blog/" style="padding: 20px;"><div>BLOGS</div></a>
 							</li>
-							<li <?php if ($title=="Careers"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/careers"><div>CAREERS</div></a>
+							<li <?php if ($title=="Careers"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/careers/" style="padding: 20px;"><div>CAREERS</div></a>
 							</li>
-							<li <?php if ($title=="Contact Us"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/contact"><div>CONTACT US</div></a>
+							<li <?php if ($title=="Contact Us"){echo 'class="current"'; } ?>><a href="<?php echo base_url(); ?>index.php/contact/" style="padding: 20px;"><div>CONTACT US</div></a>
 							</li>
 							<!--<li ><a href="<?php echo base_url(); ?>shop"><div>SHOP</div></a>
 							</li>-->
@@ -288,7 +288,7 @@
 						
 						<div id="top-cart">
 						<?php if($this->session->user_id!=null){ ?>
-						<a id="top-cart-trigger" href="#"><i class="icon-shopping-cart"></i><span id="carticon">0</span></a>
+						<a id="top-cart-trigger" href="#" ><i class="icon-shopping-cart"></i><span id="carticon">0</span></a>
 							<div  id="top-cart-content" class="top-cart-content">
 								<div class="top-cart-title">
 									<h4>Shopping Cart</h4>
@@ -333,9 +333,9 @@
 						</div>
 						<!-- Top Search
 						============================================= -->
-						<div id="top-search">
-							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"></i></a>
-							<form action="<?php echo base_url(); ?>search" method="get">
+						<div id="top-search" style="margin: 20px;">
+							<a href="#" id="top-search-trigger"><i class="icon-search3"></i><i class="icon-line-cross"  style="margin-bottom: 10px;"></i></a>
+							<form action="<?php echo base_url(); ?>search/" method="get">
 								<input type="text" name="q" class="form-control" value="" placeholder="Type &amp; Hit Enter..">
 							</form>
 						</div><!-- #top-search end -->

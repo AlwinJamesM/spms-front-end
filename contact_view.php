@@ -54,7 +54,7 @@
 <div role="main" class="main">
 
 	<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
-	<div id="googlemaps" class="google-map mt-0" style="height: 500px;">
+	<div id="googlemaps" class="google-map" style="height: 500px;">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.932931465306!2d121.04678669364013!3d14.585781629084192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59f9878959c314fc!2sSt. Patrick's Medical Systems Inc. (SPMS)!5e0!3m2!1sen!2sph!4v1571243944683!5m2!1sen!2sph" frameborder="0" style="border:0;" width="100%" height="500px" allowfullscreen=""></iframe>
 </div>
 	<div class="container">

@@ -52,7 +52,7 @@
 
 <!-- Page Title
 		============================================= -->
-		<div class="text-center pb-4 pt-5 my-5" >
+		<div class="text-center my-5" >
     <div class="col-md-10 mx-md-auto">
         <h1 class="word-rotator slide font-weight-bold text-8 mb-3 appear-animation" data-appear-animation="fadeInUpShorter">
             <span style="font-size: 35px; margin-bottom:10px; margin-left:10px;">St. Patrick's Medical Systems (SPMS)</span><br>
