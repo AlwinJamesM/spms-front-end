@@ -46,13 +46,12 @@
 		<!-- font-awesome Icon -->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
+		
 </head>
 
 
 <!-- Page Title
 		============================================= -->
-<div role="main" class="main">
-
 	<!-- Google Maps - Go to the bottom of the page to change settings and map location. -->
 	<div id="googlemaps" class="google-map" style="height: 500px;">
     <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15444.932931465306!2d121.04678669364013!3d14.585781629084192!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x59f9878959c314fc!2sSt. Patrick's Medical Systems Inc. (SPMS)!5e0!3m2!1sen!2sph!4v1571243944683!5m2!1sen!2sph" frameborder="0" style="border:0;" width="100%" height="500px" allowfullscreen=""></iframe>
@@ -130,7 +129,7 @@
 		
 			<div class="col-lg-6">
 
-				<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
+				<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800" style="margin-top: 10px;">
 				<?php
 					$query=$this->db->get('tbl_setting_contacts');
 					$phone="";
@@ -148,7 +147,7 @@
 						$youtube=$row->youtube;
 					}
 					?>
-					<h4 class="mt-2 mb-1">Our <strong>Office</strong></h4>
+					<h2 class="mt-2 mb-1">Our <strong>Office</strong></h2>
 					<ul class="list list-icons list-icons-style-2 mt-2">
 						<li><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">Address:</strong><?php echo " ".$address; ?></li>
 						<li><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> <?php echo " ".$phone; ?></li>
@@ -157,16 +156,16 @@
 				</div>
 
 				<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
-					<h4 class="pt-5">Business <strong>Hours</strong></h4>
+					<h2 class="pt-5">Business <strong>Hours</strong></h2>
 					<ul class="list list-icons list-dark mt-2">
-						<li><i class="far fa-clock top-6"></i> Monday - Friday - 8am to 5pm</li>
+						<li><i class="fa-regular fa-clock"></i>Monday - Friday - 8am to 5pm</li>
 						<li><i class="far fa-clock top-6"></i> Saturday - Closed</li>
 						<li><i class="far fa-clock top-6"></i> Sunday - Closed</li>
 					</ul>
 				</div>
 
 					<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="950">
-					<h4 class="pt-5">Follow <strong>Us</strong></h4>
+					<h2 class="pt-5">Follow <strong>Us</strong></h2>
 					<ul class="list list-icons list-dark mt-2">
 						<li><a href="https://www.facebook.com/<?php echo ltrim($fb, '@'); ?>"><i class="icon-facebook"></i></a> <span class="subtitle"><?php echo $fb; ?></span></li>
 						<li><a href="https://www.instagram.com/<?php echo ltrim($instagram, '@'); ?>"><i class="icon-instagram2"></i> </a><?php echo $instagram; ?></li>
@@ -200,4 +199,5 @@
 <!-- Theme Initialization Files -->
 <script src="/spms/porto/assets/js/theme.init.js"></script>
 
-<!-- Google Maps -->
+<!-- Font awesome kit -->
+<script src="https://kit.fontawesome.com/4f647d983d.js" crossorigin="anonymous"></script>
