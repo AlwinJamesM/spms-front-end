@@ -149,10 +149,9 @@
 
 			</div>
 
-			<div class="col-lg-6">
+			<div class="col-lg-6" style="height: 650px; padding: 0;">
 
-				<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800"
-					style="margin-top: 10px;">
+				<div class="appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="800">
 					<?php
 					$query = $this->db->get('tbl_setting_contacts');
 					$phone = "";
@@ -172,7 +171,7 @@
 					?>
 				</div>
 
-				<div class="container py-5 my-5">
+				<div class="container py-5 my-5" style="margin-left: 60px;">
 					<div class="row row-gutter-sm align-items-lg-center">
 						<div class="col-7 col-lg-5 ps-xs-1">
 							<img src="http://localhost/spms/porto/assets/img/hyl-it.jpg"
@@ -198,22 +197,22 @@
 
 	<div class="container my-4">
     <div class="row pt-5 py-lg-5">
-        <div class="col-5 col-md-6 col-lg-3 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-5 mb-lg-0">
             <h5 class="text-6 text-transform-none font-weight-semi-bold text-color-light mb-4">Location</h5>
             <p><i class="fas fa-map-marker-alt top-6"></i> <strong class="text-dark">Address:</strong><?php echo " ".$address; ?></p>
         </div>
-        <div class="col-7 col-md-6 col-lg-3 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-5 mb-lg-0">
             <h5 class="text-6 text-transform-none font-weight-semi-bold text-color-light mb-4">Opening Hours</h5>
             <p><i class="fa-regular fa-clock"></i>Monday - Friday - 8am to 5pm</p>
             <p><i class="far fa-clock top-6"></i> Saturday - Closed</p>
             <p><i class="far fa-clock top-6"></i> Sunday - Closed</p>
         </div>
-        <div class="col-7 col-md-6 col-lg-3 mb-5 mb-lg-0">
+        <div class="col-lg-3 col-md-6 col-sm-6 mb-5 mb-lg-0">
             <h5 class="text-6 text-transform-none font-weight-semi-bold text-color-light mb-4">Call Us and Email Now</h5>
             <p class="text-7 text-color-light font-weight-light mb-2"><a href="tel:0123456789"><i class="fas fa-phone top-6"></i> <strong class="text-dark">Phone:</strong> <?php echo " ".$phone; ?></a></p>
             <p><i class="fas fa-envelope top-6"></i> <strong class="text-dark">Email:</strong> <a href="#">spmsphilippines@gmail.com</a></p>
         </div>
-        <div class="col-5 col-md-6 col-lg-3">
+        <div class="col-lg-3 col-md-6 col-sm-6">
             <h5 class="text-6 text-transform-none font-weight-semi-bold text-color-light mb-4">Social Media</h5>
             <ul class="footer-social-icons social-icons m-0">
                 <li><a href="https://www.facebook.com/<?php echo ltrim($fb, '@'); ?>"><i class="icon-facebook"></i></a> <span class="subtitle"><?php echo $fb; ?></span></li>
