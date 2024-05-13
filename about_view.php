@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>About Us</title>
-    <!-- Include Bootstrap CSS -->
-    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Custom CSS -->
-    <style>
-        /* Custom styles for the "Learn more about our process" section */
-        .process-section {
-            background-color: #f8f9fa; /* Light gray background */
-            padding: 80px 0; /* Adjust as needed */
-        }
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        .process-section h2 {
-            color: #333; /* Dark text color */
-            font-size: 36px; /* Larger font size */
-            margin-bottom: 30px; /* Spacing below the heading */
-        }
+    <title>Porto - Multipurpose Website Template</title>
 
-        .process-section p {
-            color: #666; /* Medium gray text color */
-            font-size: 18px; /* Normal font size */
-        }
+    <meta name="keywords" content="WebSite Template" />
+    <meta name="description" content="Porto - Multipurpose Website Template">
+    <meta name="author" content="okler.net">
 
-        .process-step {
-            margin-bottom: 40px; /* Spacing between process steps */
-        }
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="/spms/porto/assets/img/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="/spms/porto/assets/img/apple-touch-icon.png">
 
-        .process-step h4 {
-            color: #333; /* Dark text color */
-            font-size: 24px; /* Larger font size */
-            margin-bottom: 15px; /* Spacing below the heading */
-        }
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
 
-        .process-step p {
-            color: #666; /* Medium gray text color */
-            font-size: 16px; /* Normal font size */
-        }
-    </style>
+    <!-- Web Fonts  -->
+    <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
+
+    <!-- Vendor CSS -->
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/animate/animate.compat.css">
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/simple-line-icons/css/simple-line-icons.min.css">
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/owl.carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/owl.carousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/magnific-popup/magnific-popup.min.css">
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="/spms/porto/assets/css/theme.css">
+    <link rel="stylesheet" href="/spms/porto/assets/css/theme-elements.css">
+    <link rel="stylesheet" href="/spms/porto/assets/css/theme-blog.css">
+    <link rel="stylesheet" href="/spms/porto/assets/css/theme-shop.css">
+
+    <!-- Current Page CSS -->
+    <link rel="stylesheet" href="/spms/porto/assets/vendor/circle-flip-slideshow/css/component.css">
+
+    <!-- Skin CSS -->
+    <link id="skinCSS" rel="stylesheet" href="/spms/porto/assets/css/skins/default.css">
+
+    <!-- Theme Custom CSS -->
+    <link rel="stylesheet" href="/spms/porto/assets/css/custom.css">
+
 </head>
 <body>
-
+ 
 <!-- Page Title -->
 <section id="page-title">
     <div class="container clearfix">
@@ -54,94 +59,192 @@
     </div>
 </section><!-- #page-title end -->
 
-<!-- Content -->
-<section id="content">
-    <div class="content-wrap">
-        <div class="container clearfix notopmargin">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <?php echo base64_decode($content); ?>
+
+<div class="container pb-1">
+
+    <div class="row pt-4">
+        <div class="col">
+            <div class="overflow-hidden mb-3">
+                <h2 class="word-rotator slide font-weight-bold text-8 mb-0 appear-animation" data-appear-animation="maskUp">
+                    <span>We are SPMS, We </span>
+                    <span class="word-rotator-words bg-primary">
+                        <b class="is-visible">Create</b>
+                        <b>Build</b>
+                        <b>Develop</b>
+                    </span>
+                </h2>
+            </div>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-lg-10">
+            <div class="overflow-hidden">
+                <p class="lead mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="250">
+                Since 1989, St. Patrick's Medical Systems (SPMS) has been "Nurturing Growth Solutions" for the healthcare organizations we deliberately serve. We empower our organization to continuously be better in achieving our objective by embracing:
+                </p>
+            </div>
+        </div>
+        <div class="col-lg-2 appear-animation" data-appear-animation="fadeIn" data-appear-animation-delay="450">
+            <a href="<?php echo base_url(); ?>index.php/careers" class="btn btn-modern btn-primary mt-1">Join Our Team!</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+
+    <div class="row mt-5 py-3">
+        <div class="col-md-6">
+            <div class="toggle toggle-primary toggle-simple m-0" data-plugin-toggle>
+                <section class="toggle active mt-0">
+                    <a href="#" class="toggle-title">Our Vision</a>
+                    <div class="toggle-content">
+                        <p>"To be the preferred solutions provider in every healthcare office."</p>
+                    </div>
+                </section>
+                <section class="toggle">
+                    <a href="#" class="toggle-title">Our Mission</a>
+                    <div class="toggle-content">
+                        <p>"Enabling a successful healthcare practice through better customer solutions and employee excellence."</p>
+                    </div>
+                </section>
+                <section class="toggle">
+                    <a href="#" class="toggle-title">Our Values</a>
+                    <div class="toggle-content">
+                        <p>Continuously Be Better <br>
+                            Ownership Mentality <br>
+                            Logical Urgency <br>
+                            Think Win-Win <br>
+                            Be Proactive <br>
+                            Teamwork <br>
+                            Respect <br>
+                            Integrity <br>
+                        </p>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="progress-bars">
+                <div class="progress-label">
+                    <span class="text-1">Quality of Work</span>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
+                        <span class="progress-bar-tooltip">100%</span>
+                    </div>
+                </div>
+                <div class="progress-label">
+                    <span class="text-1">Design</span>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
+                        <span class="progress-bar-tooltip">100%</span>
+                    </div>
+                </div>
+                <div class="progress-label">
+                    <span class="text-1">Quality of Services</span>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
+                        <span class="progress-bar-tooltip">100%</span>
+                    </div>
+                </div>
+                <div class="progress-label">
+                    <span class="text-1">Quality of Products</span>
+                </div>
+                <div class="progress mb-2">
+                    <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
+                        <span class="progress-bar-tooltip">100%</span>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</section><!-- #content end -->
+</div>
 
-<!-- Counters -->
 <section class="section section-primary border-0 mb-0 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': -150}">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-10">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 mb-4">
-                        <div class="counter text-center">
-                            <i class="icons icon-user text-color-light"></i>
-                            <strong class="text-color-light font-weight-bold d-block mt-2" data-to="45000" data-append="+">45000</strong>
-                            <label class="text-4 text-color-light">Happy Clients</label>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 mb-4">
-                        <div class="counter text-center">
-                            <i class="icons icon-briefcase text-color-light"></i><!-- Corrected icon class -->
-                            <strong class="text-color-light font-weight-bold d-block mt-2" data-to="15">30</strong>
-                            <label class="text-4 text-color-light">Years In Business</label>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 mb-4">
-                        <div class="counter text-center">
-                            <i class="icons icon-graph text-color-light"></i>
-                            <strong class="text-color-light font-weight-bold d-block mt-2" data-to="178">100%</strong>
-                            <label class="text-4 text-color-light">High Score</label>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 mb-4">
-                        <div class="counter text-center">
-                            <i class="icons icon-cup text-color-light"></i>
-                            <strong class="text-color-light font-weight-bold d-block mt-2" data-to="352">1000</strong>
-                            <label class="text-4 text-color-light">Cups of Coffee</label>
-                        </div>
-                    </div>
+        <div class="row counters counters-sm pt-3">
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <div class="counter">
+                    <i class="icons icon-user text-color-light"></i>
+                    <strong class="text-color-light font-weight-extra-bold d-block" data-to="45000" data-append="+">45000</strong>
+                    <label class="text-2 mt-1 text-color-light d-block">Clients</label>
                 </div>
             </div>
-        </div>
-    </div>
-</section><!-- Counters end -->
-
-<section class="process-section">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-8 text-center">
-                <h2 class="font-weight-bold mb-4">Discover Our Process</h2>
-                <p class="lead mb-5">Explore how we transform ideas into groundbreaking healthcare solutions at St. Patrick's Medical Systems Inc. Our transparent process ensures innovation every step of the way.</p>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-md-4 process-step">
-                <div class="circular-bar mb-4">
-                    <div class="meeting"></div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <div class="counter">
+                    <i class="icons icon-badge text-color-light"></i>
+                    <strong class="text-color-light font-weight-extra-bold d-block" data-to="30">30</strong>
+                    <label class="text-2 mt-1 text-color-light d-block">Years</label>
                 </div>
-                <h4 class="font-weight-bold">Meeting</h4>
-                <p>Collaboration starts here. Our team listens closely to your needs, ensuring our healthcare solutions align perfectly with your goals and objectives.</p>
             </div>
-            <div class="col-md-4 process-step">
-                <div class="circular-bar mb-4">
-                    <div class="Execute"></div>
+            <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+                <div class="counter">
+                    <i class="icons icon-graph text-color-light"></i>
+                    <strong class="text-color-light font-weight-extra-bold d-block" data-to="100">100</strong>
+                    <label class="text-2 mt-1 text-color-light d-block">High Score</label>
                 </div>
-                <h4 class="font-weight-bold">Execute</h4>
-                <p>With a solid plan in place, we put our expertise to work. Every detail is meticulously executed, ensuring seamless integration and optimal performance of our healthcare technology.</p>
             </div>
-            <div class="col-md-4 process-step">
-                <div class="circular-bar mb-4">
-                    <div class="Delivery"></div>
+            <div class="col-lg-3 col-md-6">
+                <div class="counter">
+                    <i class="icons icon-cup text-color-light"></i>
+                    <strong class="text-color-light font-weight-extra-bold d-block" data-to="1000">1000</strong>
+                    <label class="text-2 mt-1 text-color-light d-block">Coffee</label>
                 </div>
-                <h4 class="font-weight-bold">Delivery</h4>
-                <p>Our commitment to excellence doesn't end with development. We deliver our solutions promptly and efficiently, empowering you to make an immediate impact on patient care.</p>
             </div>
         </div>
     </div>
 </section>
 
-<!-- Include Bootstrap JS (optional) -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- JavaScript -->
+<script src="/spms/porto/assets/vendor/plugins/js/plugins.min.js"></script>
+<script src="/spms/porto/assets/js/theme.js"></script>
+<script src="/spms/porto/assets/js/views/view.home.js"></script>
+<script src="/spms/porto/assets/js/custom.js"></script>
+<script src="/spms/porto/assets/js/theme.init.js"></script>
+<script>
+    $(document).ready(function() {
+        // Toggle content based on click event
+        $('.toggle-title').on('click', function(e) {
+            e.preventDefault();
+            var $this = $(this);
+            var $toggleContent = $this.next('.toggle-content');
+            if ($this.hasClass('active')) {
+                $toggleContent.slideUp();
+                $this.removeClass('active');
+            } else {
+                $('.toggle-title').removeClass('active');
+                $('.toggle-content').slideUp();
+                $this.addClass('active');
+                $toggleContent.slideDown();
+            }
+        });
+    });
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var words = document.querySelectorAll('.word-rotator-words b');
+        var currentWord = 0;
+
+        setInterval(function() {
+            words[currentWord].style.display = 'none';
+            currentWord = (currentWord + 1) % words.length;
+            words[currentWord].style.display = 'inline-block';
+        }, 2000); // Change every 2 seconds (2000 milliseconds)
+    });
+</script>
+<script>
+    function init() {
+        var vidDefer = document.getElementsByTagName('iframe');
+        for (var i = 0; i < vidDefer.length; i++) {
+            if (vidDefer[i].getAttribute('data-src')) {
+                vidDefer[i].setAttribute('src', vidDefer[i].getAttribute('data-src'));
+            }
+        }
+    }
+    window.onload = init;
+</script>
 </body>
 </html>
