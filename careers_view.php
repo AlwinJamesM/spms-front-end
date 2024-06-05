@@ -33,21 +33,32 @@
             color: #fff; /* Text color when text is selected */
 			text-shadow: none;
         }
+
+		.testimonial blockquote {
+            background-color: #639e9c !important;
+            padding: 3rem; /* Optional: Add padding for better aesthetics */
+            border-radius: 5px; /* Optional: Add rounded corners */
+            color: white; /* Optional: Change text color for better contrast */
+        }
+		
+		.card-title a {
+		color: black !important;
+		}
+
     </style>
 
 </head>
 <body>
 <section id="page-title">
     <div class="container clearfix">
-        <h1>About Us</h1>
+        <h1>Careers</h1>
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="<?php echo base_url(); ?>">Home</a></li>
-            <li class="breadcrumb-item active" aria-current="page">About Us</li>
+            <li class="breadcrumb-item active" aria-current="page">Careers</li>
         </ol>
     </div>
-</section>
+</section> 
 <div role="main" class="main">
-    <div role="main" class="main">
         <hr class="m-0">
         <div class="container py-5 mt-3">
             <div class="row">
@@ -69,6 +80,8 @@
                 </div>
             </div>
         </div>
+    </div>
+
         <section class="section section-default border-0 m-0">
             <div class="container py-4">
                 <div class="row pb-4">
@@ -325,23 +338,22 @@
 			?>
 										
 		</select>
-</div>
-<div class="col_full">
-    <label for="template-jobform-cvfile">Upload CV (PDF or DOC)</label>
-    <input type="file" id="template-jobform-cvfile" name="template-jobform-cvfile" value="" class="required sm-form-control" accept="application/msword, application/pdf" />
-</div>
-<div class="col_full hidden">
-    <input type="text" id="template-jobform-botcheck" name="template-jobform-botcheck" value="" class="sm-form-control" />
-</div>
-<div class="col_full">
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-    <div class="g-recaptcha" data-sitekey="6LcqPXAUAAAAAMradOQi7C3TOeBhNnEQG-Hrb1IF"></div>
-</div>
-<div class="col_full">
-    <button class="button button-3d button-large btn-block nomargin" name="template-jobform-apply" type="submit" value="apply">Send Application</button>
-</div>
-<input type="hidden" name="prefix" value="template-jobform-">
-
+			</div>
+			<div class="col_full">
+				<label for="template-jobform-cvfile">Upload CV (PDF or DOC)</label>
+				<input type="file" id="template-jobform-cvfile" name="template-jobform-cvfile" value="" class="required sm-form-control" accept="application/msword, application/pdf" />
+			</div>
+			<div class="col_full hidden">
+				<input type="text" id="template-jobform-botcheck" name="template-jobform-botcheck" value="" class="sm-form-control" />
+			</div>
+			<div class="col_full">
+				<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+				<div class="g-recaptcha" data-sitekey="6LcqPXAUAAAAAMradOQi7C3TOeBhNnEQG-Hrb1IF"></div>
+			</div>
+			<div class="col_full">
+				<button class="button button-3d button-large btn-block nomargin" name="template-jobform-apply" type="submit" value="apply">Send Application</button>
+			</div>
+			<input type="hidden" name="prefix" value="template-jobform-">
         </form>
     </div>
 </div>

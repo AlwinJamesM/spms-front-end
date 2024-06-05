@@ -4,23 +4,17 @@
     <!-- Basic -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Porto - Multipurpose Website Template</title>
-
     <meta name="keywords" content="WebSite Template" />
     <meta name="description" content="Porto - Multipurpose Website Template">
     <meta name="author" content="okler.net">
-
     <!-- Favicon -->
     <link rel="shortcut icon" href="/spms/porto/assets/img/favicon.ico" type="image/x-icon" />
     <link rel="apple-touch-icon" href="/spms/porto/assets/img/apple-touch-icon.png">
-
     <!-- Mobile Metas -->
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
-
     <!-- Web Fonts  -->
     <link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7CShadows+Into+Light&display=swap" rel="stylesheet" type="text/css">
-
     <!-- Vendor CSS -->
     <link rel="stylesheet" href="/spms/porto/assets/vendor/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/spms/porto/assets/vendor/fontawesome-free/css/all.min.css">
@@ -29,21 +23,34 @@
     <link rel="stylesheet" href="/spms/porto/assets/vendor/owl.carousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="/spms/porto/assets/vendor/owl.carousel/assets/owl.theme.default.min.css">
     <link rel="stylesheet" href="/spms/porto/assets/vendor/magnific-popup/magnific-popup.min.css">
-
     <!-- Theme CSS -->
     <link rel="stylesheet" href="/spms/porto/assets/css/theme.css">
     <link rel="stylesheet" href="/spms/porto/assets/css/theme-elements.css">
     <link rel="stylesheet" href="/spms/porto/assets/css/theme-blog.css">
     <link rel="stylesheet" href="/spms/porto/assets/css/theme-shop.css">
-
     <!-- Current Page CSS -->
     <link rel="stylesheet" href="/spms/porto/assets/vendor/circle-flip-slideshow/css/component.css">
-
     <!-- Skin CSS -->
     <link id="skinCSS" rel="stylesheet" href="/spms/porto/assets/css/skins/default.css">
-
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="/spms/porto/assets/css/custom.css">
+
+<style>
+    /* Override primary color to #1ABC9C */
+    .bg-primary,
+    .btn-primary,
+    .progress-bar-primary,
+    .text-primary {
+        background-color: #1ABC9C !important;
+        border-color: #1ABC9C !important;
+    }
+
+    #last-section {
+        background-color: #1ABC9C !important;
+        margin-bottom: -100px; /* Adjust the margin-bottom to remove excess space */
+    }
+</style>
+
 
 </head>
 <body>
@@ -59,9 +66,7 @@
     </div>
 </section><!-- #page-title end -->
 
-
 <div class="container pb-1">
-
     <div class="row pt-4">
         <div class="col">
             <div class="overflow-hidden mb-3">
@@ -90,9 +95,7 @@
     </div>
 </div>
 
-
 <div class="container">
-
     <div class="row mt-5 py-3">
         <div class="col-md-6">
             <div class="toggle toggle-primary toggle-simple m-0" data-plugin-toggle>
@@ -138,9 +141,9 @@
                     <span class="text-1">Design</span>
                 </div>
                 <div class="progress mb-2">
-                    <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
-                        <span class="progress-bar-tooltip">100%</span>
-                    </div>
+                <div class="progress-bar progress-bar-primary" data-appear-progress-animation="100%">
+                    <span class="progress-bar-tooltip">100%</span>
+                </div>
                 </div>
                 <div class="progress-label">
                     <span class="text-1">Quality of Services</span>
@@ -163,7 +166,8 @@
     </div>
 </div>
 
-<section class="section section-primary border-0 mb-0 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': -150}">
+
+<section id="last-section" class="section section-primary border-0 mb-0 appear-animation" data-appear-animation="fadeIn" data-plugin-options="{'accY': -150}" style="margin-bottom: -50px;">
     <div class="container">
         <div class="row counters counters-sm pt-3">
             <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
@@ -191,12 +195,13 @@
                 <div class="counter">
                     <i class="icons icon-cup text-color-light"></i>
                     <strong class="text-color-light font-weight-extra-bold d-block" data-to="1000">1000</strong>
-                    <label class="text-2 mt-1 text-color-light d-block">Coffee</label>
+                    <label class="text-2 mt-1 text-color-light d-block">Products</label>
                 </div>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- JavaScript -->
 <script src="/spms/porto/assets/vendor/plugins/js/plugins.min.js"></script>
