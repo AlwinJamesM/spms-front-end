@@ -1,3 +1,4 @@
+
 <?php
 function isPageActive($pageName)
 {
@@ -15,8 +16,6 @@ function isPageActive($pageName)
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>St. Patrick's Medical System Inc.</title>
-
 	<meta name="keywords" content="WebSite Template" />
 	<meta name="description" content="Porto - Multipurpose Website Template">
 	<meta name="author" content="okler.net">
@@ -32,28 +31,75 @@ function isPageActive($pageName)
 	<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800%7COpen+Sans:400,700,800&display=swap" rel="stylesheet" type="text/css">
 
 	<!-- Vendor CSS -->
-	<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
-	<link rel="stylesheet" href="vendor/animate/animate.compat.css">
-	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
-	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
-	<link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.min.css">
+	<link rel="stylesheet" href="porto/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="porto/vendor/fontawesome-free/css/all.min.css">
+	<link rel="stylesheet" href="porto/vendor/animate/animate.compat.css">
+	<link rel="stylesheet" href="porto/vendor/simple-line-icons/css/simple-line-icons.min.css">
+	<link rel="stylesheet" href="porto/vendor/owl.carousel/assets/owl.carousel.min.css">
+	<link rel="stylesheet" href="porto/vendor/owl.carousel/assets/owl.theme.default.min.css">
+	<link rel="stylesheet" href="porto/vendor/magnific-popup/magnific-popup.min.css">
 
 	<!-- Theme CSS -->
-	<link rel="stylesheet" href="css/theme.css">
-	<link rel="stylesheet" href="css/theme-elements.css">
-	<link rel="stylesheet" href="css/theme-blog.css">
-	<link rel="stylesheet" href="css/theme-shop.css">
+	<link rel="stylesheet" href="porto/css/theme.css">
+	<link rel="stylesheet" href="porto/css/theme-elements.css">
+	<link rel="stylesheet" href="porto/css/theme-blog.css">
+	<link rel="stylesheet" href="porto/css/theme-shop.css">
 
 	<!-- Demo CSS -->
-	<link rel="stylesheet" href="css/demos/demo-landing.css">
+	<link rel="stylesheet" href="porto/css/demos/demo-landing.css">
 
 	<!-- Skin CSS -->
-	<link id="skinCSS" rel="stylesheet" href="css/skins/skin-landing.css">
+	<link id="skinCSS" rel="stylesheet" href="porto/css/skins/skin-landing.css">
 
 	<!-- Theme Custom CSS -->
-	<link rel="stylesheet" href="css/custom.css">
+	<link rel="stylesheet" href="porto/css/custom.css">
+	
+	<!-- style css -->
+	 <!-- start -->
+	<?php if ($title == 'blogs') { ?>
+	<style>
+		.card.custom-card {
+			background-color: #018391;
+			color: white;
+			height: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.card.custom-card .card-body {
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 100%;
+		}
+
+		.card.custom-card .card-body p {
+			color: black;
+		}
+
+		.portfolio-item {
+			height: 100%;
+		}
+
+		/* Spacing and centering cards */
+		.row.justify-content-center {
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+		}
+
+		.isotope-item {
+			display: flex;
+			justify-content: center;
+			margin-bottom: 30px;
+		}
+	</style>
+	<?php } else if ($title == 'homepage') { ?>
+	<link rel="stylesheet" href="css/demos/demo-medical.css">
+	<?php } ?>
+
+<!-- end -->
 
 </head>
 

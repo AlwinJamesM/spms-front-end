@@ -1,45 +1,8 @@
+<?php $title = 'blogs'; ?>
 <?php include 'header.php' ?>
 
-<head>
-<style>
-.card.custom-card {
-    background-color: #018391;
-    color: white;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+<title>blogs</title>	
 
-.card.custom-card .card-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
-}
-
-.card.custom-card .card-body p {
-    color: black;
-}
-
-.portfolio-item {
-    height: 100%;
-}
-
-/* Spacing and centering cards */
-.row.justify-content-center {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.isotope-item {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-</style>
-</head>
 <!-- body --->
 <div role="main" class="main">
 
