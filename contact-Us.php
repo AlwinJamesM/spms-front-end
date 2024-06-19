@@ -1,4 +1,7 @@
+<?php $title = 'contact-Us'; ?>
 <?php include 'header.php' ?>
+
+<title>Contact-Us</title>	
 
 <!-- body --->
 <div role="main" class="main">
