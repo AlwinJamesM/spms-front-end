@@ -16,23 +16,11 @@
         </div>
     </div>
 </div>
-
-
 				<section class="section-custom-medical">
 					<div class="container">
 						<div class="row medical-schedules">
-							<div class="col-xl-3 box-one bg-color-primary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
-								<div class="feature-box feature-box-style-2 align-items-center p-4">
-									<div class="feature-box-icon p-0">
-										<img src="img/demos/medical/icons/medical-icon-heart.png" alt class="img-fluid pt-1" />
-									</div>
-									<div class="feature-box-info">
-										<h4 class="m-0 p-0">Dental Supplies</h4>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-xl-3 box-three bg-color-primary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="600">
+					
+							<div class="col-xl-3 box-three bg-color-secondary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="0">
 								<div class="expanded-info p-4 bg-color-primary">
 									<div class="info custom-info">
 										<span>Address</span>
@@ -45,7 +33,7 @@
 								</h5>
 							</div>
 
-							<div class="col-xl-3 box-four bg-color-secondary p-0 appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="1200">
+							<div class="col-xl-3 box-four bg-color-primary p-0 appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="600">
 								<a href="tel:+008001234567" class="text-decoration-none">
 									<div class="feature-box feature-box-style-2 m-0">
 										<div class="feature-box-icon">
@@ -59,7 +47,7 @@
 								</a>
 							</div>
 
-							<div class="col-xl-3 box-two bg-color-tertiary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="1500">
+							<div class="col-xl-3 box-two bg-color-secondary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="1200">
 							<div class="expanded-info p-4 bg-color-primary">
 									<div class="info custom-info">
 										<span>Mon-Sat</span>
@@ -75,7 +63,19 @@
 									<i class="icon-arrow-right-circle icons"></i>
 								</h5>
 							</div>
+							<div class="col-xl-3 box-one bg-color-primary appear-animation" data-appear-animation="fadeInLeft" data-appear-animation-delay="1500">
+								<div class="feature-box feature-box-style-2 align-items-center p-4">
+									<div class="feature-box-icon p-0">
+										<img src="img/demos/medical/icons/medical-icon-heart.png" alt class="img-fluid pt-1" />
+									</div>
+									<div class="feature-box-info">
+										<h4 class="m-0 p-0">Dental Supplies</h4>
+									</div>
+								</div>
+							</div>
 						</div>
+
+						
 						<div class="row mt-5 mb-5 pt-3 pb-3">
 							<div class="col-md-8">
 								<h2 class="font-weight-semibold mb-0">ALCOHOL-FREE MOUTHWASH GEL</h2>
@@ -291,20 +291,20 @@
 			</div>
 			
 <!-- Vendor -->
-<script src="vendor/plugins/js/plugins.min.js"></script>
+<script src="porto/vendor/plugins/js/plugins.min.js"></script>
 
 <!-- Theme Base, Components and Settings -->
-<script src="js/theme.js"></script>
+<script src="porto/js/theme.js"></script>
 
 <!-- Current Page Vendor and Views -->
-<script src="js/views/view.contact.js"></script>
+<script src="porto/js/views/view.contact.js"></script>
 
 <!-- Demo -->
-<script src="js/demos/demo-medical.js"></script>
+<script src="porto/js/demos/demo-medical.js"></script>
 
 <!-- Theme Custom -->
-<script src="js/custom.js"></script>
+<script src="porto/js/custom.js"></script>
 
 <!-- Theme Initialization Files -->
-<script src="js/theme.init.js"></script>
+<script src="porto/js/theme.init.js"></script>
 		<?php include 'footer.php' ?>
