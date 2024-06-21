@@ -3,7 +3,7 @@
 
 <title>blogs</title>	
 
-<!--- body --->
+<!--- body ---> 
 <div role="main" class="main">
 
     <section class="custom-page-header-1 page-header page-header-modern page-header-lg border-0 z-index-1 my-0" style="background-image: url(img/gradient-bg.jpeg); background-size: cover; background-position: center;">

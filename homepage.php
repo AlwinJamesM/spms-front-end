@@ -335,7 +335,7 @@
 									<span class="custom-thumb-info-title">
 										<span class="custom-thumb-info-type font-weight-light text-4">14th Jan
 											2020</span>
-										<span class="custom-thumb-info-inner font-weight-semibold text-5">Thyroid
+		 								<span class="custom-thumb-info-inner font-weight-semibold text-5">Thyroid
 											Collar</span>
 										<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
 									</span>
