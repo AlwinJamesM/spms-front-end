@@ -19,7 +19,7 @@
 	</div>
 </footer>
 </div>
-
+ 
 <!-- Vendor -->
 <script src="vendor/plugins/js/plugins.min.js"></script>
 

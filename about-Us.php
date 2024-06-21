@@ -2,7 +2,7 @@
 <?php include 'header.php' ?>
 
 <title>About Us</title>
-<!-- body --->
+<!--- body --->
 
 <section
     class="page-header page-header-modern page-header-background page-header-background-md overlay overlay-color-dark overlay-show overlay-op-7"

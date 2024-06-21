@@ -2,7 +2,7 @@
 <?php include 'header.php' ?>
 
 <title>careers form</title>
-
+<!-- body -->
 <div role="main" class="main">
 
     <section class="page-header page-header-modern custom-page-header-style-1 bg-color-primary page-header-lg mb-0">
