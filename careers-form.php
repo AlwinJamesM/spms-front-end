@@ -1,7 +1,7 @@
 <?php $title = 'careers-form'; ?>
 <?php include 'header.php' ?>
 
-<title>careers form</title> 
+<title>careers form</title>  
 <!-- body --> 
 <div role="main" class="main">
 
