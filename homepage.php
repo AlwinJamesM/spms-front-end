@@ -7,18 +7,19 @@
 
 <div role="main" class="main">
 
-	<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-vertical-center dots-align-right dots-orientation-portrait custom-dots-style-1 show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0"
-		data-plugin-options="{'autoplay': false, 'autoplayTimeout': 7000}"
-		data-dynamic-height="['650px','650px','650px','550px','500px']" style="height: 650px;">
-		<div class="owl-stage-outer">
-			<div class="owl-stage">
-				<!-- Carousel Slide 1 -->
-				<div class="owl-item position-relative overlay overlay-show overlay-op-3"
-					style="background-image: url('img/spms-logo.jpg'); background-size: cover; background-position: center;">
-				</div>
+<div class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual dots-inside dots-vertical-center dots-align-right dots-orientation-portrait custom-dots-style-1 show-dots-hover show-dots-xs nav-style-1 nav-inside nav-inside-plus nav-dark nav-lg nav-font-size-lg show-nav-hover mb-0"
+	data-plugin-options="{'autoplay': false, 'autoplayTimeout': 7000}"
+	data-dynamic-height="['650px','650px','650px','550px','500px']" style="height: 600px;">
+	<div class="owl-stage-outer">
+		<div class="owl-stage">
+			<!-- Carousel Slide 1 -->
+			<div class="owl-item position-relative overlay overlay-show overlay-op-3"
+				style="background-image: url('img/dental-doctor-bg.jpg'); background-size: cover; background-position: center 5%; /* Move the image down */">
 			</div>
 		</div>
 	</div>
+</div>
+
 	<section class="section-custom-medical">
 		<div class="container">
 			<div class="row medical-schedules">
@@ -335,7 +336,7 @@
 									<span class="custom-thumb-info-title">
 										<span class="custom-thumb-info-type font-weight-light text-4">14th Jan
 											2020</span>
-		 								<span class="custom-thumb-info-inner font-weight-semibold text-5">Thyroid
+										<span class="custom-thumb-info-inner font-weight-semibold text-5">Thyroid
 											Collar</span>
 										<i class="icon-arrow-right-circle icons font-weight-semibold text-5 "></i>
 									</span>
@@ -347,7 +348,7 @@
 			</div>
 		</div>
 	</section>
-  
+
 </div>
 
 <!-- Vendor -->

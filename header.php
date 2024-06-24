@@ -159,7 +159,7 @@ function isPageActive($pageName)
 						<div class="header-column px-lg-3">
 							<div class="header-row">
 								<div class="header-logo">
-									<img src="img/spms-logo.jpg" alt="Porto" width="100" height="70"
+									<img src="img/logo.png" alt="Porto" width="100" height="70"
 										data-sticky-width="82" data-sticky-height="40" data-sticky-top="0"
 										src="img/logo-default-slim-dark.png">
 
@@ -174,7 +174,7 @@ function isPageActive($pageName)
 										<nav class="collapse">
 											<ul class="nav nav-pills" id="mainNav">
 												<li class="dropdown">
-													<a class="<?php echo isPageActive('myray.php'); ?>"
+													<a class="<?php echo isPageActive('homepage.php'); ?>"
 														href="homepage.php">Home</a>
 												</li>
 												<li class="dropdown">
@@ -216,4 +216,4 @@ function isPageActive($pageName)
 					</div>
 				</div>
 			</div>
-		 </header>    
+		</header>
