@@ -1,15 +1,13 @@
-<!-- Footer -->
-
 <footer id="footer" class="bg-color-dark-100 border border-end-0 border-start-0 border-bottom-0 border-color-light-3 mt-0">
 	<div class="container text-center my-3 py-5">
 		<a href="about-Us.php">
-			<img src="img/lazy.png" data-src="img/spms-logo.jpg" width="100" height="70" class="appear-animation lazyload mb-4" alt="Porto" data-appear-animation="fadeIn" data-appear-animation-delay="300">
+			<img src="img/lazy.png" data-src="img/logo.png" width="100" height="70" class="appear-animation lazyload mb-4" alt="Porto" data-appear-animation="fadeIn" data-appear-animation-delay="300">
 		</a>
 		<p class="text-4 mb-4">Enabling a successful healthcare practice through better customer solutions and employee excellence.<a href="https://themeforest.net/user/okler/" class="text-color-light text-decoration-none" target="_blank"></a></p>
 		<ul class="social-icons social-icons-big social-icons-dark-2">
 			<li class="social-icons-facebook"><a href="https://www.facebook.com/spmsofficialpage" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-			<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fab fa-x-twitter"></i></a></li>
-			<li class="social-icons-google"><a href="https://spms.com.ph/" target="_blank" title="google"><i class="fab fa-google"></i></a></li>
+			<li class="social-icons-instagram"><a href="https://www.instagram.com/spmsofficial/" target="_blank" title="Twitter"><i class="fab fa-instagram"></i></a></li>
+			<li class="social-icons-youtube"><a href="https://www.youtube.com/@st.patricksmedicalsystemsi99" target="_blank" title="google"><i class="fab fa-youtube"></i></a></li>
 		</ul>
 	</div>
 	<div class="copyright bg-color-dark-100 py-4">
@@ -18,8 +16,8 @@
 		</div>
 	</div>
 </footer>
-</div>     
- 
+</div>
+
 <!-- Vendor -->
 <script src="vendor/plugins/js/plugins.min.js"></script>
 

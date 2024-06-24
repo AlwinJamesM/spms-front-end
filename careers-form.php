@@ -1,8 +1,8 @@
 <?php $title = 'careers-form'; ?>
 <?php include 'header.php' ?>
 
-<title>careers form</title>  
-<!-- body --> 
+<title>careers form</title>
+
 <div role="main" class="main">
 
     <section class="page-header page-header-modern custom-page-header-style-1 bg-color-primary page-header-lg mb-0">
@@ -15,7 +15,7 @@
                 <div class="col-md-4 order-1 order-md-2 align-self-center">
                     <ul class="breadcrumb d-block text-md-end breadcrumb-light appear-animation"
                         data-appear-animation="fadeInRightShorter" data-appear-animation-delay="400">
-                        <li><a href="#">Home</a></li>
+                        <li><a href="homepage.php">Home</a></li>
                         <li class="active">Careers</li>
                     </ul>
                 </div>
